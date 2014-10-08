@@ -1,0 +1,100 @@
+h1{
+	
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 144px;
+	font-family: 'Anton', sans-serif;
+	margin:0;
+	
+}
+
+h2{
+	
+	background-color: black;
+	text-align: center;
+	color: #FF9966;
+	font-size: 216px;
+	font-family: 'Shadows Into Light', cursive;
+	margin:0
+	
+}
+
+/*get rid of bullets and line up images across page*/
+
+ul.img-list{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+ul.img-list li{
+	display: inline-block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	/*font-family: 'Shadows Into Light', cursive;*/
+	font-size: 32px;
+	height: 350px;
+	margin: 0;
+	position: relative;
+	width:33%;
+}
+
+/*place text over images*/
+span.text-content {
+background: rgba(0,0,0,0.5);
+color: white;
+
+cursor: pointer;
+display: table;
+height: 350px;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+}
+ 
+span.text-content span {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+
+/*shows text on hover only*/
+span.text-content {
+background: rgba(0,0,0,0.5);
+color: white;
+
+cursor: pointer;
+display: table;
+height: 350px;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+opacity: 0;
+}
+ 
+ul.img-list li:hover span.text-content {
+opacity: 1;
+}
+
+/*the fade!!!!*/
+span.text-content {
+background: rgba(0,0,0,0.5);
+color: white;
+
+cursor: pointer;
+display: table;
+height: 350px;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity 500ms;
+-moz-transition: opacity 500ms;
+-o-transition: opacity 500ms;
+transition: opacity 500ms;
+}
+
