@@ -46,11 +46,11 @@ h1 {
   height:100vh;
   width:48%;
   margin:1%
- 
+  background-color:#BCCF02
 
 }
 
-
+.screen2 ul{color:#5BB12F;}
 
 .screen4{
   float:left;
