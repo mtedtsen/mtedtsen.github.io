@@ -50,10 +50,12 @@ h1 {
 
 }
 
-
+p.splitup{
+  clear:both;
+}
 
 .screen4{
-  clear: left;
+  
   height:50vh;
   width:48%;
   margin:1%;
