@@ -44,6 +44,8 @@ h1 {
   width:50%;
   background-color: #E8E8E8; 
   display: inline-block;
+  position:relative;
+  left:0;
 }
 
 
@@ -52,6 +54,8 @@ h1 {
   width:50%;
   background-color: #E8E8E8; 
   display: inline-block;
+  position:relative;
+  left:0;
 }
 
 body{
