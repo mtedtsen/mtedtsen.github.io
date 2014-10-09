@@ -29,11 +29,12 @@ h1 {
 .screen1 h1 {display:table-cell; vertical-align:middle}
 
 .screen2{
-  height:100vh;
+  height:25vh;
+  width:25%;
   background-color: #E8E8E8; 
 }
 
-.screen2 h2 {color:#E8E8E8}
+.screen2 h2 {color:#333333}
 .screen2 ul {color:#EB65A0;}
 .screen2 p {color: #9B539C;}
 
