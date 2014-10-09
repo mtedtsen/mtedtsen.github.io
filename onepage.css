@@ -30,10 +30,11 @@ h1 {
 
 .screen2{
   height:100vh;
-  background-color: #E0E0E0; 
+  background-color: #E8E8E8; 
 }
 
-
+.screen2 h2 {color:#9B539C;}
+.screen2 p {color: #EB65A0;}
 
 body{
   background-color: #333333;
