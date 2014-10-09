@@ -1,13 +1,8 @@
-<<<<<<< HEAD
+
 body {
   background-image: url("bgtriangles.jpg");
   background-repeat: no-repeat;
   background-position: right top;
-
+  color:white;
 } 
-=======
-body{
-  background-image:url("bgtriangles.jpg");
-  color: white;
-}
->>>>>>> 2f34127c70207e33b20aaead64ce5fab6e90603c
+
