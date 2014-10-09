@@ -41,6 +41,7 @@ h1 {
 
 
 .screen3{
+  float:right;
   height:50vh;
   width:50%;
   background-color: #E8E8E8; 
