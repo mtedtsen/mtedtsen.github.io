@@ -31,8 +31,8 @@ h1 {
 .screen2{
   float: left;
   height:50vh;
-  width:46%;
-  margin:2%
+  width:48%;
+  margin:1%
   background-color: #E8E8E8; 
 }
 
@@ -44,21 +44,19 @@ h1 {
 .screen3{
   float:right;
   height:50vh;
-  width:46%;
-  margin: 2%;
+  width:48%;
+  margin:1%;
   background-color: #E8E8E8; 
 
 }
 
-.text_line {
-    clear: both;
-}
+
 
 .screen4{
-  
+  clear: left;
   height:50vh;
-  width:46%;
-  margin:2%;
+  width:48%;
+  margin:1%;
   background-color: #E8E8E8; 
 
 }
