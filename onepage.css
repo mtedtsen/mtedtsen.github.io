@@ -47,6 +47,7 @@ h1 {
   
   text-align: center;
   color:white
+  background-color:black;
   
 }
 
@@ -54,3 +55,5 @@ div.screen1{
   margin:0;
   padding:0;
 }
+
+
