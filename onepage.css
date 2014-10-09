@@ -33,8 +33,9 @@ h1 {
   background-color: #E8E8E8; 
 }
 
-.screen2 h2 {color:#9B539C;}
-.screen2 p {color: #EB65A0;}
+.screen2 h2 {color:#E8E8E8}
+.screen2 ul {color:#EB65A0;}
+.screen2 p {color: #9B539C;}
 
 body{
   background-color: #333333;
