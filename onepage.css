@@ -43,7 +43,7 @@ h1 {
 
 .screen3{
   float:right;
-  height:50vh;
+  height:100vh;
   width:48%;
   margin:1%;
   background-color: #E8E8E8; 
@@ -52,10 +52,11 @@ h1 {
 
 p.splitup{
   clear:both;
+  width:50%;
 }
 
 .screen4{
-  
+  float:left;
   height:50vh;
   width:48%;
   margin:1%;
