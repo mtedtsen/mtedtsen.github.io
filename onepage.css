@@ -44,12 +44,17 @@ h1 {
   float:right;
   height:50vh;
   width:50%;
+  margin: 5%;
   background-color: #E8E8E8; 
 
 }
 
+.text_line {
+    clear: both;
+}
 
 .screen4{
+  
   height:50vh;
   width:50%;
   background-color: #E8E8E8; 
