@@ -46,6 +46,12 @@ h1 {
 }
 
 
+.screen4{
+  height:50vh;
+  width:50%;
+  background-color: #E8E8E8; 
+}
+
 body{
   background-color: #333333;
   color: white;
