@@ -51,10 +51,17 @@ h1 {
   
 }
 
-div.screen1{
+.screen1{
+   height: 90%; 
+   text-align:center; 
+   display:table;
+   width:100%;
   margin:0;
   padding:0;
 }
+
+
+.screen1 h1 {display:table-cell; vertical-align:middle}
 
 body{
   background-color: #333333;
