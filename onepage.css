@@ -32,9 +32,14 @@ h1 {
   float: left;
   height:50vh;
   width:48%;
-  margin:1%;
+
   background-color:#9B539C; 
   color: #EB65A0;
+
+  margin-left:0;
+  margin-top:1%;
+  margin-bottom:1%;
+  margin-right:1%
 }
 
 
@@ -47,6 +52,11 @@ h1 {
   background-color:#BCCF02;
   color: #5BB12F;
 
+  margin-right:0;
+  margin-top:1%;
+  margin-bottom:1%;
+  margin-left:0;
+
 }
 
 
@@ -54,13 +64,14 @@ h1 {
   float:left;
   height:50vh;
   width:48%;
-  margin-left:1%;
+  
+  background-color: #73C5E1;
+  color: #336699;
+
+  margin-left:0;
   margin-right:1%;
   margin-top:0;
   margin-bottom:1%;
- background-color: #73C5E1;
- color: #336699;
-
 }
 
 body{
