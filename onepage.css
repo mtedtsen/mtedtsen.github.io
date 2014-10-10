@@ -31,7 +31,7 @@ h1 {
 .screen2{
   float: left;
   height:50vh;
-  width:48%;
+  width:49%;
 
   background-color:#9B539C; 
   color: #EB65A0;
@@ -47,7 +47,7 @@ h1 {
 .screen3{
   float:right;
   height:100vh;
-  width:48%;
+  width:49%;
   
   background-color:#BCCF02;
   color: #5BB12F;
@@ -63,7 +63,7 @@ h1 {
 .screen4{
   float:left;
   height:50vh;
-  width:48%;
+  width:49%;
   
   background-color: #73C5E1;
   color: #336699;
