@@ -31,7 +31,7 @@ h1 {
 .screen2{
   float: left;
   height:50vh;
-  width:49%;
+  width:50%;
 
   background-color:#9B539C; 
   color: #EB65A0;
@@ -39,7 +39,7 @@ h1 {
   margin-left:0;
   margin-top:1%;
   margin-bottom:1%;
-  margin-right:1%
+  margin-right:0;
 }
 
 
@@ -47,7 +47,7 @@ h1 {
 .screen3{
   float:right;
   height:100vh;
-  width:49%;
+  width:50%;
   
   background-color:#BCCF02;
   color: #5BB12F;
@@ -63,13 +63,13 @@ h1 {
 .screen4{
   float:left;
   height:50vh;
-  width:49%;
+  width:50%;
   
   background-color: #73C5E1;
   color: #336699;
 
   margin-left:0;
-  margin-right:1%;
+  margin-right:0;
   margin-top:0;
   margin-bottom:1%;
 }
