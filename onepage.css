@@ -51,7 +51,7 @@ font-family: 'Permanent Marker', cursive;
  
   text-align:center;
 
-  min-width: 400px;
+  min-width: 300px;
 
 
 
@@ -81,12 +81,13 @@ ul {
 
   text-align:center;
 
-  min-width:400px;
+  min-width:300px;
 
 
 
 }
 
+.schoolbreakdown{width:auto;}
 .screen3 ul{padding-bottom:10vh;}
 
 .onecolumn { 
