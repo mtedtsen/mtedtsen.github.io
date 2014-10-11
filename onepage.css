@@ -81,13 +81,36 @@ ul {
 
   text-align:center;
 
-  min-width:1200px;
+  min-width:;
 
 
 
 }
 
 .screen3 ul{padding-bottom:10vh;}
+
+.onecolumn { 
+
+  overflow:hidden;
+}
+
+.onecolumn div {
+   min-height: 200px;
+   
+}
+
+
+@media screen and (max-width: 600px) {
+   #screen1 { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+   
+  }
+}
+
+
 
 .screen4{
   float:left;
@@ -114,7 +137,7 @@ h2 { padding-top:10vh;}
 
 body{
   background-color: #333333;
-  color: white;
+
 }
 
 #container
@@ -122,3 +145,4 @@ body{
 min-width: 600px;
 
 } 
+
