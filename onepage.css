@@ -51,15 +51,16 @@ font-family: 'Permanent Marker', cursive;
  
   text-align:center;
 
-
+  position: relative;
 
 }
 
 
 .screen2 h2 ul p{
-  position: relative;
+  margin:0;
+  position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(0, -50%);
 }
 
 
