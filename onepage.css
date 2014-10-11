@@ -87,7 +87,7 @@ ul {
 
 }
 
-.schoolbreakdown{width:auto;}
+.schoolbreakdown{min-width:100%;}
 .screen3 ul{padding-bottom:10vh;}
 
 .onecolumn { 
@@ -135,7 +135,7 @@ body{
 
 #container
 {
-min-width: 600px;
+min-width: 300px;
 
 } 
 
