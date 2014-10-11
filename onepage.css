@@ -67,7 +67,7 @@ ul {
     list-style-type: none;
     font: 2vw;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 20%;
 }
 
 
@@ -93,7 +93,8 @@ ul {
 }
 
 .schoolbreakdown{min-width:100%;}
-.screen3 ul{padding-bottom:10vh;}
+.screen3 ul{padding-bottom:10vh;
+   padding-left:50%;}
 
 .onecolumn { 
 
