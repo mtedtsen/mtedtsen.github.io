@@ -51,7 +51,7 @@ font-family: 'Permanent Marker', cursive;
  
   text-align:center;
 
-  padding-top:5%;
+
 
 }
 
@@ -75,7 +75,7 @@ ul {
 
   text-align:center;
 
-  padding-top:5%;
+
 }
 
 
@@ -94,9 +94,12 @@ ul {
  
   text-align:center;
 
-  padding-top:5%;
+ 
 }
 
+h2{
+  padding-top:5%;
+}
 body{
   background-color: #333333;
   color: white;
