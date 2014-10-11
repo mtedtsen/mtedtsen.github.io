@@ -68,6 +68,7 @@ ul {
     font: 2vw;
     text-align: left;
     padding-left: 20%;
+    padding-right: 10%;
 }
 
 
@@ -91,6 +92,8 @@ ul {
 
 
 }
+
+.screen3 ul{ padding-left:50%;}
 
 .schoolbreakdown{min-width:100%;}
 .screen3 ul{padding-bottom:10vh;
