@@ -51,7 +51,7 @@ font-family: 'Permanent Marker', cursive;
  
   text-align:center;
 
-  min-width: 300px;
+  min-width: 400px;
 
 
 
@@ -81,7 +81,7 @@ ul {
 
   text-align:center;
 
-  min-width:300px;
+  min-width:400px;
 
 
 
@@ -100,15 +100,7 @@ ul {
 }
 
 
-@media screen and (max-width: 600px) {
-   #screen1 { 
-    float: none;
-    margin-right:0;
-    width:auto;
-    border:0;
-   
-  }
-}
+
 
 
 
