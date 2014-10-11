@@ -20,6 +20,7 @@ h1 {
   
 }
 
+p{ font: 2vw;}
 .screen1{
    height: 90%; 
    text-align:center; 
@@ -52,7 +53,7 @@ font-family: 'Permanent Marker', cursive;
   text-align:center;
 
   min-width: 300px;
-  font-size: 1vw;
+ 
 
 
 
@@ -64,8 +65,10 @@ font-family: 'Permanent Marker', cursive;
 
 ul {
     list-style-type: none;
+    font: 2vw;
   
 }
+
 
 .screen3{
   float:right;
@@ -126,7 +129,9 @@ ul {
 
 .screen4 h2 {padding-top: 20vh;}
 
-h2 { padding-top:10vh;}
+h2 { padding-top:10vh;
+     font: 3vw;    
+}
 
 
 body{
