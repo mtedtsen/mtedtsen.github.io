@@ -51,17 +51,13 @@ font-family: 'Permanent Marker', cursive;
  
   text-align:center;
 
-  position: relative;
+  display:table-cell;
+  vertical-align:middle;
 
 }
 
 
-.screen2 h2 ul p{
-  margin:0;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-}
+
 
 
 ul {
