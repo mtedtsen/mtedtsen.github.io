@@ -55,6 +55,14 @@ font-family: 'Permanent Marker', cursive;
 
 }
 
+
+.screen2 h2 ul p{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
 ul {
     list-style-type: none;
   
@@ -97,9 +105,8 @@ ul {
  
 }
 
-h2{
-  padding-top:25%;
-}
+
+
 body{
   background-color: #333333;
   color: white;
