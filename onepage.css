@@ -49,10 +49,12 @@ font-family: 'Permanent Marker', cursive;
   margin-bottom:0;
   margin-right:0;
 
+  display:table;
+
 
 }
 
-
+.screen2 h2 ul p{display: table-cell; vertical-align:middle}
 
 .screen3{
   float:right;
