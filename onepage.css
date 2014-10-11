@@ -56,7 +56,7 @@ font-family: 'Permanent Marker', cursive;
 }
 
 
-
+.screen2 p{padding-bottom:10vh;}
 
 
 ul {
@@ -82,6 +82,7 @@ ul {
 
 }
 
+.screen3 ul{padding-bottom:10vh;}
 
 .screen4{
   float:left;
@@ -101,7 +102,7 @@ ul {
  
 }
 
-.screen4 h2 {padding-top: 15vh;}
+.screen4 h2 {padding-top: 20vh;}
 
 h2 { padding-top:10vh;}
 
