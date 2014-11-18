@@ -98,6 +98,8 @@ visibility:hidden;
   margin-left:5%;
   margin-right:5%;
   margin-top:3em;
+
+  max-width:55em;
  
 }
 
@@ -225,17 +227,15 @@ visibility:hidden;
   padding-top:0;
 
 }
+.screen2container{ overflow:hidden;}
 .screen2content{
-  margin-top:4.6em;
-  max-width:50em;
-  margin-left:7.5em;
+  float:none;
+  overflow:hidden;
+  margin-top:5em;
+  width:74%;
+  margin-left:auto;
   margin-right:auto;
 }
-}
-@media screen and (min-width:66em){
-  .screen2content{
-    margin-left:auto;
-    margin-right:auto;
 
-  }
 }
+
