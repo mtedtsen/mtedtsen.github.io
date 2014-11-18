@@ -1,0 +1,167 @@
+html{
+ margin:0;
+  padding:0;
+ 
+  height:100%;
+  width:100%;
+  
+  font-size:100%; 
+
+}
+body{
+  margin:0;
+  padding:0;
+ 
+  height:100%;
+  width:100%;
+  
+ 
+}
+/*SCREEN ONE
+----------------------------------*/
+.screen1container{
+ 
+  /*background image*/
+  height:100%;
+  width:100%;
+  overflow:hidden;
+  
+  background-image: url("fieldoyellow.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%;
+}
+
+.screen1content{
+ color:white;
+  height:100%;
+  width:100%;
+  overflow:hidden;
+ 
+}
+
+.name{
+ 
+   margin-left:5%;
+   margin-right:5%;
+   margin-top:5%;
+   margin-bottom:0;
+   
+   padding-top: 5%;
+   height:65%;
+   
+   line-height:1.5;
+   font-size: 2.2em; /*2.2em=35.2px*/
+    font-family: 'Lato', sans-serif;
+  
+  font-weight:300;
+   text-align:center;
+
+}
+
+.quote{
+visibility:hidden;
+  background-color:yellow;
+  /*
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom:5%;
+  margin-top:0;
+  
+  height:20%;
+  
+  font-size:1em;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  
+  text-align:center;
+  */
+ 
+}
+/*SCREEN TW0
+------------------------*/
+.screen2container{
+  
+  height:100%;
+  width:100%;
+  
+  background-color:#FFCC00;
+}
+
+
+
+.screen2content{
+ 
+  float:left;
+  width:90%;
+  height:70%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:3.8em;
+}
+
+.navpara{
+ 
+  font-size:1.6em; /*72.7272% of h1*/
+  line-height:350%;
+  font-family: 'Lato', serif;
+  font-weight:300;
+  text-align:center;
+  background-color: white;
+  
+  margin-top:8%;
+}
+
+/*
+
+#navlist{
+  text-align:center;
+  color:#FFCC00;
+  font-family:'Lato', sans-serif;
+  font-weight:300;
+  margin-top:0;
+}
+
+#navlist li{
+ max-width:90%;
+ 
+  margin-bottom:2%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+*/
+/*MEDIA QUERIES WIDTH
+---------------------------------------*/
+@media screen and (min-width: 25em){
+.name{
+  font-size:3.5em;
+
+}
+}
+@media screen and (min-width: 30em){
+.name{
+  font-size:4em;
+
+}
+}
+@media screen and (min-width: 35em){
+.name{
+  font-size:4.5em;
+
+}
+}
+@media screen and (min-width: 50em){
+.name{
+  font-size:4.7em;
+  padding-top:3%;
+}
+}
+@media screen and (min-width: 65em){
+.name{
+   font-size:5em;
+  padding-top:0;
+
+}
+}
