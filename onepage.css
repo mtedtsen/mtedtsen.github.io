@@ -146,6 +146,60 @@ visibility:hidden;
 
 
 */
+
+/* 'NOT HOME' PAGES
+--------------------------------*/
+.nothomepageh1{
+  text-align:center;
+
+}
+.nothomepagebodycontainer h1{
+  font-weight:100;
+  font-family: 'Lato', sans-serif;
+  font-size:3em;
+}
+#iambodycontainer{
+  background-color:#2C4947;
+  margin:0;
+  padding:0;
+  overflow:scroll;
+  top:0;
+  height:100%;
+  width:100%;
+  color:white;
+
+}
+
+#idobodycontainer{
+  background-color:#CCCC66;
+  overflow:scroll;
+  height:100%;
+  width:100%;
+}
+#iatbodycontainer{
+  background-color:#6BA236;
+  overflow:scroll;
+  height:100%;
+  width:100%;
+}
+.nothomepagecontentbigdiv h2{ font-weight:100; font-size: 2.2em; text-align:center;}
+.nothomepagecontentbigdiv p{font-weight:300; font-size: 1.2em;}
+.nothomepagecontentbigdiv ul{font-weight:300; font-size: 1.2em; list-style-type:square; padding-left:4%;}
+.nothomepagecontentbigdiv{
+  font-family: 'Lato', sans-serif;
+  padding-left:5%;
+  padding-right:5%;
+  max-width:50em;
+  margin-left:auto;
+  margin-right:auto;
+}
+.map-canvas{
+  height:25em;
+  width:25em;
+  background-color:#CCC;
+
+}
+
 /*MEDIA QUERIES WIDTH
 ---------------------------------------*/
 @media screen and (min-width: 25em){
@@ -248,36 +302,5 @@ visibility:hidden;
   margin-right:auto;
 }
 
-}
-/* 'NOT HOME' PAGES
---------------------------------*/
-.nothomepageh1{
-  text-align:center;
-
-}
-#iambodycontainer{
-  background-color:#2C4947;
-  overflow:hidden;
-  height:100%;
-  width:100%;
-
-}
-#idobodycontainer{
-  background-color:#CCCC66;
-  overflow:hidden;
-  height:100%;
-  width:100%;
-}
-#iatbodycontainer{
-  background-color:#6BA236;
-  overflow:hidden;
-  height:100%;
-  width:100%;
-}
-
-.map-canvas{
-  height:25em;
-  width:25em;
-  background-color:#CCC;
 
 }
