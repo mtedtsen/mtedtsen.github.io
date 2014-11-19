@@ -193,9 +193,16 @@ visibility:hidden;
   margin-left:auto;
   margin-right:auto;
 }
+.wheretext{
+  font-family: 'Lato', sans-serif;
+  text-align:center;
+}
 .map-canvas{
-  height:25em;
-  width:25em;
+  height:20em;
+  width:100%;
+  max-width:30em;
+  margin-left:auto;
+  margin-right:auto;
   background-color:#CCC;
 
 }
@@ -210,6 +217,7 @@ visibility:hidden;
 .screen2content{
   margin-top:3.5em;
 }
+
 }
 @media screen and (min-width: 30em){
 .name{
