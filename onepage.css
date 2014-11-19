@@ -84,7 +84,7 @@ visibility:hidden;
   
   height:100%;
   width:100%;
-  
+ 
   background-color:#F0CA0E;
 }
 
@@ -114,20 +114,17 @@ visibility:hidden;
   margin-top:8%;
 }
 
-#navpoint1{  background-color: /*#003366 #757116 #2C3E50 #043D5D*/ #2C4947;}
-#navpoint2{  background-color: /*#336666 #AEBC21  #1ABC9C  #449BB5*/ #6BA236;}
-#navpoint3{  background-color: /*#33CC99 #D9DB56  #ECECEC  #68C39F*/ #CCCC66;}
+#navpoint1{  background-color: /*#003366 #757116 #2C3E50 #043D5D*/ #2C4947;} /*greyish blue*/
+#navpoint2{  background-color: /*#336666 #AEBC21  #1ABC9C  #449BB5*/ #6BA236;} /*hunter greenish*/
+#navpoint3{  background-color: /*#33CC99 #D9DB56  #ECECEC  #68C39F*/ #CCCC66;} /*brown beige*/
 
 .navlinkpoint{
   text-decoration:none;
+  color:white;
  
 }
-a:link{
-  color:white;
-}
-a:visited{
-  color:white;
-}
+
+
 
 /*
 
@@ -252,4 +249,35 @@ a:visited{
 }
 
 }
+/* 'NOT HOME' PAGES
+--------------------------------*/
+.nothomepageh1{
+  text-align:center;
 
+}
+#iambodycontainer{
+  background-color:#2C4947;
+  overflow:hidden;
+  height:100%;
+  width:100%;
+
+}
+#idobodycontainer{
+  background-color:#CCCC66;
+  overflow:hidden;
+  height:100%;
+  width:100%;
+}
+#iatbodycontainer{
+  background-color:#6BA236;
+  overflow:hidden;
+  height:100%;
+  width:100%;
+}
+
+.map-canvas{
+  height:25em;
+  width:25em;
+  background-color:#CCC;
+
+}

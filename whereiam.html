@@ -5,11 +5,52 @@
   <title>WhereIsMerridith</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="onepage.css">  
+
+  
+
+     <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('mappersonal');
+        var mapOptions = {
+          center: new google.maps.LatLng(39.0000, -80.5),
+          zoom: 4,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        var myLatlng = new google.maps.LatLng(39.0000,-76.7000);
+        var marker1 = new google.maps.Marker({
+         position: myLatlng,
+         map: map,
+         title:"Home town"
+         }); 
+       var myLatlng2 = new google.maps.LatLng(41.8347,-87.6283);
+         var marker2 = new google.maps.Marker({
+         position: myLatlng2,
+         map: map,
+         title:"College Life"
+         }); 
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+
     
+   </script>
+  </head>
+
+
 </head>
 
 <body>
-  <p>This is where random shit about where you can find me will go one day</p>
+  <div id="iatbodycontainer">
+    <h1 class="nothomepageh1">I'M AT...</h1>
+    <h2>Home and Away</h2>
+    <p>The good ole line state and Illinois Tech</p>
+    <div class="map-canvas" id="mappersonal"></div>
+  
+    
+  </div>
 </body>
 
 
